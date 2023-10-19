@@ -51,6 +51,9 @@ Você poderá utilizar o INSOMNIA para executar e acessar através de http://loc
 
 
 ## Resultado com imagens
+<br>
+<br>
+
 
 ✔️ **CRIAR CONSULTAS**
 <br>
@@ -60,7 +63,8 @@ Para criar uma consulta, deveremos informar alguns dados da consulta e do pacien
 http://localhost:3000/consulta?cnes_consultorio=1001&senha_consultorio=CubosHealth@2022
 ```
 <a href="/img/Criar consulta.png"><img src="/img/Criar consulta.png" title="CRIAR CONSULTA" /></a>
-
+<br>
+<br>
 
 ✔️ **LISTAR CONSULTAS**
 <br>
@@ -69,7 +73,8 @@ Mostra todas as consultas cadastradas
 http://localhost:3000/consulta?cnes_consultorio=1001&senha_consultorio=CubosHealth@2022
 ```
 <a href="/img/listar consulta.png"><img src="/img/listar consulta.png" title="LISTAR CONSULTA" /></a>
-
+<br>
+<br>
 
 ✔️ **FINALIZAR CONSULTAS**
 <br>
@@ -79,7 +84,8 @@ Altera as consultas em andamento como finalizada:
 http://localhost:3000/consulta?cnes_consultorio=1001&senha_consultorio=CubosHealth@2022
 ```
 <a href="/img/finalizar consulta.png"><img src="/img/finalizar consulta.png" title="finalizar consulta" /></a>
-
+<br>
+<br>
 
 ✔️ **ATUALIZAR CONSULTAS**
 <br>
@@ -88,7 +94,8 @@ Para atualizar uma consulta é necessário passar o ID da consulta que será atu
 http://localhost:3000/consultas/3/paciente?cnes_consultorio=1001&senha_consultorio=CubosHealth@2022
 ```
 <a href="/img/atualizar consulta.png"><img src="/img/atualizar consulta.png" title="atualizar consulta" /></a>
-
+<br>
+<br>
 
 ✔️ **DELETAR CONSULTAS**
 <br>
@@ -100,7 +107,8 @@ http://localhost:3000/consulta/1?cnes_consultorio=1001&senha_consultorio=CubosHe
 
 Esta consultá só poderá ser excuída se não estiver sido finalizada:
 <a href="/img/deletar consulta 2.png"><img src="/img/deletar consulta 2.png" title="DELETAR CONSULTA" /></a>
-
+<br>
+<br>
 
 ✔️ **MOSTRAR LAUDO**
 <br>
@@ -109,6 +117,8 @@ Para exibir o laudo será necessário informar o id da consulta e a senha do pac
 http://localhost:3000/consulta/laudo?identificador_consulta=1&senha=1234
 ```
 <a href="/img/laudo.png"><img src="/img/laudo.png" title="LAUDO" /></a>
+<br>
+<br>
 
 
 ✔️ **LISTAR MEDICOS**
@@ -118,4 +128,5 @@ Aqui será necessário informar o id do médico para conseguir visualizar todas 
 http://localhost:3000/consultas/medico?identificador_medico=1
 ```
 <a href="/img/medicos.png"><img src="/img/medicos.png" title="MEDICOS" /></a>
-
+<br>
+<br>
