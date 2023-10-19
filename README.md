@@ -57,6 +57,8 @@ Você poderá utilizar o INSOMNIA para executar e acessar através de http://loc
 http://localhost:3000/consulta?cnes_consultorio=1001&senha_consultorio=CubosHealth@2022
 ```
 <a href="/img/Criar consulta.png"><img title="CRIAR CONSULTA" /></a>
+
+
 ✔️
 ✔️
 ✔️
