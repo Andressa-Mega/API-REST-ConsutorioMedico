@@ -52,18 +52,30 @@ Você poderá utilizar o INSOMNIA para executar e acessar através de http://loc
 
 ## Resultado com imagens
 
-✔️ **CRIAR CONSULTA**
+✔️ **CRIAR CONSULTAS**
+Para criar uma consulta, deveremos informar alguns dados da consulta e do paciente que irá gerar um id automaticamente como mostrado abaixo:
+
 ```
 http://localhost:3000/consulta?cnes_consultorio=1001&senha_consultorio=CubosHealth@2022
 ```
-<a href="/img/Criar consulta.png"><img title="CRIAR CONSULTA" /></a>
+<a href="/img/Criar consulta.png"><img src="/img/Criar consulta.png" title="CRIAR CONSULTA" /></a>
 
 
-✔️
-✔️
-✔️
-✔️
-✔️
+✔️ **LISTAR CONSULTAS**
+Mostra todas as consultas cadastradas
+```sql
+http://localhost:3000/consulta?cnes_consultorio=1001&senha_consultorio=CubosHealth@2022
+```
+<a href="/img/listar consulta.png"><img src="/img/listar consulta.png" title="CRIAR CONSULTA" /></a>
+
+
+
+
+✔️ **FINALIZAR CONSULTAS**
+✔️ **ATUALIZAR CONSULTAS**
+✔️ **DELETAR CONSULTAS**
+✔️ **MOSTRAR LAUDO**
+✔️ **LISTAR MEDICOS**
 
 
 
