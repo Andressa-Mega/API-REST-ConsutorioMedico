@@ -1,0 +1,18 @@
+{
+  "name": "api-rest-consutoriomedico",
+  "version": "1.0.0",
+  "description": "Este projeto foi desenvolvido como desafio alternativo do Módulo 2 do Curso Desenvolvimento de Software com foco em BackEnd pela Cubos Academy e visa fornecer uma experiência prática na criação de um sistema de consultório médico.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
