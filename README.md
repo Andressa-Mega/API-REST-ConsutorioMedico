@@ -53,6 +53,7 @@ Você poderá utilizar o INSOMNIA para executar e acessar através de http://loc
 ## Resultado com imagens
 
 ✔️ **CRIAR CONSULTAS**
+<br>
 Para criar uma consulta, deveremos informar alguns dados da consulta e do paciente que irá gerar um id automaticamente como mostrado abaixo:
 
 ```
@@ -62,6 +63,7 @@ http://localhost:3000/consulta?cnes_consultorio=1001&senha_consultorio=CubosHeal
 
 
 ✔️ **LISTAR CONSULTAS**
+<br>
 Mostra todas as consultas cadastradas
 ```sql
 http://localhost:3000/consulta?cnes_consultorio=1001&senha_consultorio=CubosHealth@2022
@@ -70,6 +72,7 @@ http://localhost:3000/consulta?cnes_consultorio=1001&senha_consultorio=CubosHeal
 
 
 ✔️ **FINALIZAR CONSULTAS**
+<br>
 Altera as consultas em andamento como finalizada:
 
 ```sql
@@ -79,6 +82,7 @@ http://localhost:3000/consulta?cnes_consultorio=1001&senha_consultorio=CubosHeal
 
 
 ✔️ **ATUALIZAR CONSULTAS**
+<br>
 Para atualizar uma consulta é necessário passar o ID da consulta que será atualizada.
 ```
 http://localhost:3000/consultas/3/paciente?cnes_consultorio=1001&senha_consultorio=CubosHealth@2022
@@ -87,6 +91,7 @@ http://localhost:3000/consultas/3/paciente?cnes_consultorio=1001&senha_consultor
 
 
 ✔️ **DELETAR CONSULTAS**
+<br>
 Para cancelar uma consulta basta passar o ID da consulta que deseja excluir como parametro na rota.
 ```
 http://localhost:3000/consulta/1?cnes_consultorio=1001&senha_consultorio=CubosHealth@2022
@@ -98,6 +103,7 @@ Esta consultá só poderá ser excuída se não estiver sido finalizada:
 
 
 ✔️ **MOSTRAR LAUDO**
+<br>
 Para exibir o laudo será necessário informar o id da consulta e a senha do paciente.
 ```
 http://localhost:3000/consulta/laudo?identificador_consulta=1&senha=1234
@@ -106,6 +112,7 @@ http://localhost:3000/consulta/laudo?identificador_consulta=1&senha=1234
 
 
 ✔️ **LISTAR MEDICOS**
+<br>
 Aqui será necessário informar o id do médico para conseguir visualizar todas as consultas que o médico já atendeu, ou seja, já foram finalizadas.
 ```
 http://localhost:3000/consultas/medico?identificador_medico=1
