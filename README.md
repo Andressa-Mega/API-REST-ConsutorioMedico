@@ -66,16 +66,49 @@ Mostra todas as consultas cadastradas
 ```sql
 http://localhost:3000/consulta?cnes_consultorio=1001&senha_consultorio=CubosHealth@2022
 ```
-<a href="/img/listar consulta.png"><img src="/img/listar consulta.png" title="CRIAR CONSULTA" /></a>
-
-
+<a href="/img/listar consulta.png"><img src="/img/listar consulta.png" title="LISTAR CONSULTA" /></a>
 
 
 ✔️ **FINALIZAR CONSULTAS**
+Altera as consultas em andamento como finalizada:
+
+```sql
+http://localhost:3000/consulta?cnes_consultorio=1001&senha_consultorio=CubosHealth@2022
+```
+<a href="/img/finalizar consulta.png"><img src="/img/finalizar consulta.png" title="finalizar consulta" /></a>
+
+
 ✔️ **ATUALIZAR CONSULTAS**
+Para atualizar uma consulta é necessário passar o ID da consulta que será atualizada.
+```
+http://localhost:3000/consultas/3/paciente?cnes_consultorio=1001&senha_consultorio=CubosHealth@2022
+```
+<a href="/img/atualizar consulta.png"><img src="/img/atualizar consulta.png" title="atualizar consulta" /></a>
+
+
 ✔️ **DELETAR CONSULTAS**
+Para cancelar uma consulta basta passar o ID da consulta que deseja excluir como parametro na rota.
+```
+http://localhost:3000/consulta/1?cnes_consultorio=1001&senha_consultorio=CubosHealth@2022
+```
+<a href="/img/deletar consulta.png"><img src="/img/deletar consulta.png" title="DELETAR CONSULTA" /></a>
+
+Esta consultá só poderá ser excuída se não estiver sido finalizada:
+<a href="/img/deletar consulta 2.png"><img src="/img/deletar consulta 2.png" title="DELETAR CONSULTA" /></a>
+
+
 ✔️ **MOSTRAR LAUDO**
+Para exibir o laudo será necessário informar o id da consulta e a senha do paciente.
+```
+http://localhost:3000/consulta/laudo?identificador_consulta=1&senha=1234
+```
+<a href="/img/laudo.png"><img src="/img/laudo.png" title="LAUDO" /></a>
+
+
 ✔️ **LISTAR MEDICOS**
-
-
+Aqui será necessário informar o id do médico para conseguir visualizar todas as consultas que o médico já atendeu, ou seja, já foram finalizadas.
+```
+http://localhost:3000/consultas/medico?identificador_medico=1
+```
+<a href="/img/medicos.png"><img src="/img/medicos.png" title="MEDICOS" /></a>
 
